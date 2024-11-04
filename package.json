@@ -28,7 +28,7 @@
 		"prepare": "husky install",
 		"preview": "qwik build preview && vite preview --open",
 		"start-all": "pnpm generate && vite --open --mode ssr",
-		"start": "vite --open --mode ssr",
+		"start": "vite --open --mode ssr --host",
 		"qwik": "qwik",
 		"generate-admin": "graphql-codegen --config codegen-admin.ts",
 		"generate-shop": "graphql-codegen --config codegen-shop.ts",
